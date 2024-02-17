@@ -1,4 +1,4 @@
-.App-header {
+.App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -6,5 +6,43 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white;
+}
+.formDiv{
+  background-color: #063970;
+  width: 80%;
+  height: 70vh;
+}
+.headerDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form{
+  margin: 0 auto 50px auto;
+}
+.list{
+  display: flex;
+  align-items: center;
+}
+.inp{
+  width: 20vw;
+  height: 4.5vh;
+  border-radius: 10px 0 0 10px;
+  border: 2px solid #106cfc;
+}
+.btns{
+  width: 10vw;
+  height:4.5vh;
+  background-color: #106cfc;
+  border: none;
+  border-radius: 0 10px 10px 0;
   color: white;
 }
