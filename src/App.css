@@ -19,18 +19,24 @@
   justify-content: space-between;
   padding: 5px;
 }
-.div{
+.bodyDiv{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-.form{
-  margin: 0 auto 50px auto;
+  margin-top: 50px;
 }
 .list{
   display: flex;
   align-items: center;
+}
+.task{
+  margin: 0 5vw 0 0;
+}
+.form{
+  display: flex;
+  align-items: center;
+  margin: 0 auto 50px auto;
 }
 .inp{
   width: 20vw;
@@ -38,11 +44,21 @@
   border-radius: 10px 0 0 10px;
   border: 2px solid #106cfc;
 }
-.btns{
-  width: 10vw;
+.addBtn{
+  width: 8vw;
   height:4.5vh;
+  text-align: center;
   background-color: #106cfc;
   border: none;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 10px 10px 0 !important;
   color: white;
+}
+.doneBtn{
+  margin: 0 5px 0 0;
+  width: 60px;
+  height: 30px;
+}
+.removeBtn{
+  width: 80px;
+  height: 30px;
 }

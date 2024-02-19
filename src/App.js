@@ -11,17 +11,17 @@ function App() {
           <Button className='btn btn-info'>Accomplished Tasks</Button>
           <Date/>
         </div>
-        <div className='div'>    
+        <div className='bodyDiv'>
           <form className='form'>
             <input
               className='inp'
             ></input>
-            <Button className='btns btn-primary'>Add</Button>
+            <Button className='d-flex justify-content-center align-items-center addBtn'>Add</Button>
           </form>
           <ul className='list'>
-            <li>Task one</li>
-            <Button className='btn btn-success'>Done</Button>
-            <Button className='btn btn-danger'>Remove</Button>
+            <li className='task'>Task one</li>
+            <Button className='btn-success d-flex justify-content-center align-items-center doneBtn'>Done</Button>
+            <Button className='btn-danger d-flex justify-content-center align-items-center removeBtn'>Remove</Button>
           </ul>
         </div>
       </div>
