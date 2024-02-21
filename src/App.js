@@ -21,10 +21,16 @@ function App() {
             ></input>
             <Button className='d-flex justify-content-center align-items-center addBtn'>Add</Button>
           </form>
-          <ul className='list'>
-            <li className='task'>Task one</li>
-            <div><img className='taskBtns' src={remove}></img></div>
-            <div><img className='taskBtns' src={done}></img></div>
+          <ul>
+            <li>
+              <div className='task-content'>
+                <span className='task-name'>Task one</span>
+                <div>
+                  <img className='taskBtns' src={remove} alt='Delete'></img>
+                  <img className='taskBtns' src={done} alt='Add'></img>
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
