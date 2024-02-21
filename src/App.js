@@ -2,13 +2,16 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Date from './components/date'
 import { Button } from 'react-bootstrap';
+import remove from './media/remove.png'
+import done from './media/done.png'
+import oldTasks from './media/old.png'
 
 function App() {
   return (
     <div className="App">
       <div className='formDiv'>
         <div className='headerDiv'>
-          <Button className='btn btn-info'>Accomplished Tasks</Button>
+          <div><img className='oldTasks' src={oldTasks}></img> </div>
           <Date/>
         </div>
         <div className='bodyDiv'>
@@ -20,8 +23,8 @@ function App() {
           </form>
           <ul className='list'>
             <li className='task'>Task one</li>
-            <Button className='btn-success d-flex justify-content-center align-items-center doneBtn'>Done</Button>
-            <Button className='btn-danger d-flex justify-content-center align-items-center removeBtn'>Remove</Button>
+            <div><img className='taskBtns' src={remove}></img></div>
+            <div><img className='taskBtns' src={done}></img></div>
           </ul>
         </div>
       </div>

@@ -17,7 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px;
+  padding: 10px;
 }
 .bodyDiv{
   display: flex;
@@ -31,21 +31,22 @@
   align-items: center;
 }
 .task{
-  margin: 0 5vw 0 0;
+  margin: 0 10vw 0 0;
 }
-.form{
+.form{  
+  padding: 10px;
   display: flex;
   align-items: center;
   margin: 0 auto 50px auto;
 }
 .inp{
-  width: 20vw;
+  width:30vw;
   height: 4.5vh;
   border-radius: 10px 0 0 10px;
   border: 2px solid #106cfc;
 }
 .addBtn{
-  width: 8vw;
+  width: 70px;
   height:4.5vh;
   text-align: center;
   background-color: #106cfc;
@@ -53,12 +54,24 @@
   border-radius: 0 10px 10px 0 !important;
   color: white;
 }
-.doneBtn{
-  margin: 0 5px 0 0;
-  width: 60px;
+
+.taskBtns{
+  width: 30px;
   height: 30px;
+  cursor: pointer;
+  margin: 5px;
 }
-.removeBtn{
-  width: 80px;
-  height: 30px;
+.oldTasks{
+  width: 50px;
+  height:50px;
+}
+@media (max-width: 1180px) {
+  .inp{
+    width:35vw;
+  }
+}
+@media (max-width: 600px) {
+  .inp{
+    width:100%;
+  }
 }

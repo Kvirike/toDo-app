@@ -6,7 +6,7 @@ function date() {
     const hours = now.getHours();
     const minutes = now.getMinutes();
 
-    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    let days = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"]
    
     return (
         <div>
